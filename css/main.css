@@ -104,7 +104,7 @@ BANNER
 
 .banner {	
 	text-align: center;
-	padding: 470px 0 30px 0;
+	padding: 450px 0 30px 0;
 	background: url(../img/foto/meatwork.jpg) no-repeat center / cover;
 	border-bottom: 2px solid #000a1c;
 	height: 100%;			
@@ -115,6 +115,7 @@ BANNER
 }
 
 .banner p {
+	margin: 0 0 15px 0;
 	font-size: 2.45em;
 	color: #000a1c;
 	font-weight: bold;	
@@ -143,11 +144,6 @@ SECTION
 	margin: 0 auto;
 	padding: 0px 5% 0px 5%;
 	box-sizing: border-box;	
-}
-
-.wrapper-gallery {	
-	/* border-left: 2px solid #000a1c;
-	border-right: 2px solid #000a1c; */
 }
 
 #gallery {
@@ -179,6 +175,7 @@ img {
 	font-size: 0.85em;
 	text-align: center;	
 }
+
 
 /******************************************
 DESIGN
@@ -335,6 +332,45 @@ CONTACT
 /******************************************
 PROGETTI
 ******************************************/
+
+.arrow-progetto {
+	width: 50px;
+}
+
+.wrapper-gallery {	
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0px 5% 0px 5%;
+	box-sizing: border-box;	
+}
+
+.wrapper-gallery {	
+	/* border-left: 2px solid #000a1c;
+	border-right: 2px solid #000a1c; */
+}
+
+.wrapper-gallery p {
+	margin: 0;
+}
+
+.wrapper-gallery h4 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.carousel-inner {
+	border-top: 2px solid #000a1c;
+}
+
+.sfoglia-progetto {
+	padding-top: 30px;
+}
+
+.sfoglia-progetto img {
+	display: block;
+	margin: 0 auto;
+	padding: 0 0 30px 0;
+}
 
 .contenitore-gallery {
 	min-height: calc(100vh - 129.8px);	
