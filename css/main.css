@@ -1,0 +1,337 @@
+/******************************************
+GENERAL
+******************************************/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Raleway';	
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+/******************************************
+HEADER
+******************************************/
+
+#logo {
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+#logo h1:hover {
+	color: #ffcc00;
+	transition: all 0.5s;
+}
+
+.main-header {	
+	padding: 5px 0 0 0;
+	overflow: auto;
+	/* border-bottom: 2px solid #000a1c; */
+	/* background-color: #00102b; */
+}
+
+.main-header-fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;	
+}
+
+h1 {
+	font-family: Raleway;
+	color: #ffcc00;	
+	font-size: 40px;
+	margin: 0;
+	padding: 5px 0 10px 0;
+	font-weight: bold;	
+}
+
+
+/******************************************
+NAV
+******************************************/
+
+nav {	
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;	
+}
+
+nav ul li a {
+	font-family: Raleway;
+	color: #ffcc00;
+	text-decoration: none;
+	padding: 0 10px;
+	font-size: 0.8em;
+	transition: all 0.5s;
+}
+
+nav ul li a:hover {
+	color: #ffcc00;
+	text-decoration: none;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #00102b !important;
+  transition: background-color 400ms linear;
+}
+
+/******************************************
+BANNER
+******************************************/
+
+.banner {	
+	text-align: center;
+	padding: 470px 0 30px 0;
+	background: url(../img/foto/meatwork.jpg) no-repeat center / cover;
+	border-bottom: 2px solid #000a1c;
+	height: 100%;			
+}
+
+.banner-arrow {
+	padding: 130px 0 0 0;
+}
+
+.banner p {
+	font-size: 2.45em;
+	color: #000a1c;
+	font-weight: bold;	
+}
+
+.secondary-p p {
+	width: 300px;
+	color: #000a1c;
+	font-size: 1em;
+	text-align: justify;
+	position: absolute;
+	top: calc(50% - 150px);
+	left: calc(50% - 150px);	
+}
+
+.arrow {
+	width: 50px;
+}
+
+/******************************************
+SECTION
+******************************************/
+
+.wrapper {	
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0px 5% 0px 5%;
+	box-sizing: border-box;	
+}
+
+.wrapper-gallery {	
+	/* border-left: 2px solid #000a1c;
+	border-right: 2px solid #000a1c; */
+}
+
+#gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+img {
+	max-width: 100%;
+	transition: all 0.5s;		
+}
+
+#portfolio img:hover {
+	border-radius: 100%;	
+}
+
+#gallery li {	
+	float: left;
+	width: 49.4%;
+	margin: 0 0.3%;	
+}
+
+#gallery li p {
+	color: #000a1c;	
+	margin: 1% 0 0 0;	
+	border-top: 1px dotted #000a1c;
+	padding-bottom: 4%;
+	font-size: 0.85em;
+	text-align: center;	
+}
+
+/******************************************
+DESIGN
+******************************************/
+
+#design {
+	border-top: 2px solid #000a1c;	
+}
+
+#design img:hover {
+	border-radius: 100%;	
+}
+
+
+/******************************************
+FOOTER
+******************************************/
+
+.main-footer {
+	font-family: Raleway;
+	font-size: 0.7em;
+	text-align: center;
+	clear: both;
+	border-top: 2px solid #000a1c;
+	padding: 30px 0 20px 0;
+	background-color: #00102b; 	
+}
+
+.main-footer ul {	
+	padding: 0;
+}
+
+.main-footer ul li {
+	display: inline-block;
+}
+
+.main-footer ul li a img {
+	width: 30px;
+	margin: 0 5px;
+}
+
+.main-footer p {
+	color: #ffffff;
+}
+
+/******************************************
+ABOUT
+******************************************/
+
+.contenitore {
+	height: 100%;
+	min-height: calc(100vh - 129.8px);
+	border-top: 2px solid #000a1c;
+	border-bottom: 2px solid #000a1c;
+	background-color: #00102b;
+}
+
+.foto-profilo {
+	display: block;
+	max-width: 200px;
+	margin: 40px auto;
+	border-radius: 100%;
+}
+
+.wrapper section p {
+	font-size: 0.85em;
+	line-height: 1.85em;
+	text-align: justify;
+}
+
+.about {	
+	padding-top: 8%;	
+}
+
+.about h3 {
+	color: #ffffff;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.about p {
+	color: #ffffff;
+}
+
+.about a {
+	text-decoration: none;
+	color: #ffcc00;
+	transition: all 0.2s;
+}
+
+.about a:hover {
+	font-weight: bold;
+
+}
+
+/******************************************
+CONTACT
+******************************************/
+
+.wrapper-contact {
+	padding-top: 3%;
+	padding-bottom: 3%;
+
+}
+
+#info h3 {
+	color: #000a1c;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+#contatti h3 {
+	color: #000a1c;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+#info p {
+	color: #000a1c;
+	font-size: 0.85em;
+	line-height: 1.85em;
+	text-align: justify;
+	margin: 0;
+}
+
+#info p a{
+	color: #ffcc00;
+}
+
+#info p a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#contact-info {
+	list-style: none;
+	padding: 0;
+	line-height: 1.85em;
+	font-size: 0.85em;
+	margin: 0;	
+}
+
+#contact-info li a {
+	text-decoration: none;
+	color: #000a1c;	
+}
+
+#contact-info li a:hover {
+	color: #ffcc00;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/******************************************
+PROGETTI
+******************************************/
+
+.contenitore-gallery {
+	min-height: calc(100vh - 129.8px);	
+}

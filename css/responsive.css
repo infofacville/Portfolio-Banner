@@ -1,0 +1,93 @@
+/******************************************
+CONTACT
+******************************************/
+
+@media screen and (min-width: 480px) {
+
+	#info {
+		width: 50%;
+		float: left;
+	}
+
+	#contatti {
+		width: 40%;
+		float: right;
+	}
+}
+
+/******************************************
+ABOUT
+******************************************/
+
+@media screen and (min-width: 660px) {
+
+	.foto-profilo {
+		float: left;
+		margin: 0 5% 420px 0;
+	}
+
+
+/******************************************
+PORTFOLIO
+******************************************/
+
+	#gallery li {
+		width: 32.733333%;
+	}
+
+
+/******************************************
+PORTFOLIO
+******************************************/
+
+	#logo {
+		float: left;
+		width: 45%;
+		margin-left: 5%;
+		text-align: left;
+	}
+
+	nav {
+		float: right;
+		width: 45%;
+		margin-right: 5%;
+		background: none;
+		text-align: right;
+		padding: 15px 0 0 0;
+		font-size: 1.2em;
+	}
+
+	.main-header {
+		/* border-bottom: 2px solid #000a1c; */
+	}
+
+	#gallery li p {	
+		font-size: 0.85em;
+		text-align: center;	
+}
+
+}
+
+
+
+
+
+/******************************************
+MAX-WIDTH
+******************************************/
+
+
+@media screen and (max-width: 660px) {
+
+	nav {
+		border-top: 1px solid #ffffff;
+	}
+
+
+	#gallery li p {
+		font-size: 0.7em;
+		text-align: center;
+		line-height: 1em;
+	}
+
+}
