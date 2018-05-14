@@ -90,7 +90,7 @@ nav ul li a:hover {
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: #00102b !important;
+  background-color: rgba(0, 16, 43, 0.45); !important;
   transition: background-color 400ms linear;
 }
 
